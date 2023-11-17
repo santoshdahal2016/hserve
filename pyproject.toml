@@ -6,9 +6,13 @@ authors = ["santoshdahal2016 <webtutor2016@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.6"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+hserve = "hserve.server:start_server"
