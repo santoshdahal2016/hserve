@@ -6,7 +6,8 @@ authors = ["santoshdahal2016 <webtutor2016@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.5"
+watchdog = "^3.0.0"
 
 
 [build-system]
